@@ -27,7 +27,7 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "kaom/laravel-picible": "dev-master"
+    "kaom/laravel-picible": "~1.0"
 }
 ```
 
