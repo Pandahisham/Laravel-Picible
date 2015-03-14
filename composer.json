@@ -1,0 +1,20 @@
+{
+    "name": "kaom/laravel-picible",
+    "description": "Picture attachment and management for your Eloquent models.",
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Brian Kelly",
+        "email": "oss@anon.rocks"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "intervention/image": "2.*",
+        "graham-campbell/flysystem": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaom\\Picible\\": "src/"
+        }
+    }
+}
