@@ -10,7 +10,7 @@ interface Adapter
      * Write a new file.
      *
      * @param \Symfony\Component\HttpFoundation\File\File $file
-     * @param \Kaom\Picible\Models\Picture        $picture
+     * @param \Kaom\Picible\Models\Picture                $picture
      * @param array                                       $filters
      *
      * @return boolean
@@ -21,7 +21,7 @@ interface Adapter
      * Check if a file exists.
      *
      * @param \Kaom\Picible\Models\Picture $picture
-     * @param array                                $filters
+     * @param array                        $filters
      *
      * @return boolean
      */
@@ -31,7 +31,7 @@ interface Adapter
      * Delete a file.
      *
      * @param \Kaom\Picible\Models\Picture $picture
-     * @param array                                $filters
+     * @param array                        $filters
      *
      * @return boolean
      */

@@ -13,7 +13,7 @@ class AwsS3 extends AbstractAdapter implements ShareableInterface
      * Creates and returns a public link to a file.
      *
      * @param \Kaom\Picible\Models\Picture $picture
-     * @param array                                $filters
+     * @param array                        $filters
      *
      * @return string
      */
